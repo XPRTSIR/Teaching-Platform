@@ -1,0 +1,31 @@
+.headernavbar {
+  width: fit-content;
+  height: 61px;
+  background-color: #e6e6e6;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+  margin-right: 30px;
+}
+
+.headernavbar .svg-inline--fa {
+  height: 15px;
+  background: none;
+  padding: 17px 10px;
+}
+
+.headernavbar > button {
+  display: flex;
+  align-items: center;
+  margin: 0 17px;
+  padding: 0 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: #e6e6e6;
+}
+
+.headernavbar > button:active {
+  background-color: white;
+}

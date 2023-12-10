@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.rightall {
+  margin-left: 141px;
+  height: max-content;
+}
+
+header {
+  margin-left: -42px;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+.navdiv > ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin-top: 9px;
+  gap: 16px;
+}
+
+.lefticon {
+  margin-right: 500px;
+}
+
+.navdiv > ul .rightwhite {
+  font-size: xx-large;
+}
+
+.navdiv > ul li {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 10px;
+  overflow: visible;
+  vertical-align: -0.125em;
+  background: #e6e6e6;
+  padding: 17px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  height: 20px;
+  color: white;
+  padding: 9px;
+  border-radius: 50%;
+  background-color: rgb(11, 92, 11);
+  cursor: pointer;
+}
+
+.icon1 {
+  height: 20px;
+  width: 20px;
+  color: white;
+  padding: 9px;
+  margin-left: 30px;
+  border-radius: 50%;
+  background-color: rgb(215, 114, 12);
+  cursor: pointer;
+}
+
+/* sidebar code start*/
+.wimg {
+  margin-top: -40em;
+  width: 70px;
+  height: 100vh;
+  background-color: #e6e6e6;
+}
+
+.wimg > img {
+  height: 50px;
+  margin-left: 10px;
+  width: 40px;
+  line-height: 40px;
+}
+
+.wimg > .sideicon {
+  height: 40px;
+  width: 20px;
+}
+/* /side bar code end */
+/* //// */
